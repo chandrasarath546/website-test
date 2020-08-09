@@ -5,13 +5,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- build:css css/main.css -->
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 	<link rel="stylesheet" href="css/styles.css">
-    <!-- endbuild -->
     <title>Ristorante Con Fusion</title>
 </head>
 
@@ -30,10 +27,7 @@
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <!--<a data-toggle="modal" data-target="#loginModal">
-                        <span class="fa fa-sign-in"></span>Login
-                    </a>-->
-                    <a id="loginButton">
+                    <a data-toggle="modal" data-target="#loginModal">
                         <span class="fa fa-sign-in"></span>Login
                     </a>
                 </span>
@@ -161,11 +155,9 @@
                 <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
-                <!--<div class="col-12 col-sm-3 align-self-center">
-                    <a class="btn btn-block reserve-table1 btn-sm btn-warning btn-primary" data-toggle="modal" data-target="#reserveModal">Reserve Table</a>  
-                </div>-->
                 <div class="col-12 col-sm-3 align-self-center">
-                    <a class="btn btn-block reserve-table1 btn-sm btn-warning btn-primary" id="reserveButton">Reserve Table</a>  
+                    <a class="btn btn-block reserve-table1 btn-sm btn-warning btn-primary" data-toggle="modal" data-target="#reserveModal">Reserve Table</a>  
+                    </button>
                 </div>
             </div>
         </div>
@@ -213,17 +205,6 @@
                     <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
-                    <button class="btn btn-danger btn-sm" id="carouselButton">
-                        <span class="fa fa-pause"></span>
-                    </button>
-                    <!--<div class="btn-group" id="carouselButton">
-                        <button class="btn btn-danger btn-sm" id="carousel-pause">
-                            <span class="fa fa-pause"></span>
-                        </button>
-                        <button class="btn btn-danger btn-sm" id="carousel-play">
-                            <span class="fa fa-play"></span>
-                        </button>
-                    </div>-->
                 </div>
             </div>
         </div>
@@ -377,17 +358,14 @@
            </div>
         </div>
     </footer>
-    <!-- build:js js/main.js -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <!-- endbuild -->
-    <!--<script>
-        $(document).ready(function() {
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!--<script>
+      $(document).ready(function() {
         $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>-->
+      });
+  </script>-->
 </body>
 
 </html>
